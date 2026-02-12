@@ -52,9 +52,10 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--bg-color);
+    background: var(--bg-color); /* solid, no transparency */
     border-bottom: 1px solid var(--border-color);
     padding: 18px 0;
+    z-index: 1000; /* ensures it stays on top of content */
 }
 
 .nav-inner {
