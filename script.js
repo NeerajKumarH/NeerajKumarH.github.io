@@ -1,1 +1,1 @@
-// Dark mode removed
+// No dark mode, minimal JS
